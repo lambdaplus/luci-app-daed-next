@@ -18,7 +18,7 @@ jobs:
           - x86_64
         sdk:
           #- openwrt-22.03
-          - immortalwrt-23.05
+          - openwrt-23.05
 
     steps:
       - uses: actions/checkout@v3
