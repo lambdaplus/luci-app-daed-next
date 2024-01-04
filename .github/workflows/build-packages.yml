@@ -10,14 +10,15 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - aarch64_cortex-a53
-          - aarch64_cortex-a72
-          - aarch64_generic
-          - i386_pentium-mmx
-          - i386_pentium4
+          #- aarch64_cortex-a53
+          #- aarch64_cortex-a72
+          #- aarch64_generic
+          #- i386_pentium-mmx
+          #- i386_pentium4
           - x86_64
         sdk:
-          - openwrt-22.03
+          #- openwrt-22.03
+          - immortalwrt-23.05
 
     steps:
       - uses: actions/checkout@v3
